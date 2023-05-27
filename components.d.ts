@@ -11,6 +11,7 @@ declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     Container: typeof import('./src/components/Container.vue')['default']
     ElAside: typeof import('element-plus/es')['ElAside']
+    ElBadge: typeof import('element-plus/es')['ElBadge']
     ElBotton: typeof import('element-plus/es')['ElBotton']
     ElButton: typeof import('element-plus/es')['ElButton']
     ElContainer: typeof import('element-plus/es')['ElContainer']
@@ -29,15 +30,20 @@ declare module '@vue/runtime-core' {
     ElMenu: typeof import('element-plus/es')['ElMenu']
     ElMenuItem: typeof import('element-plus/es')['ElMenuItem']
     ElOption: typeof import('element-plus/es')['ElOption']
+    ElPopover: typeof import('element-plus/es')['ElPopover']
     ElSelect: typeof import('element-plus/es')['ElSelect']
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
+    List: typeof import('./src/components/List/index.vue')['default']
     NavHeader: typeof import('./src/components/NavHeader.vue')['default']
     NavSide: typeof import('./src/components/NavSide.vue')['default']
+    Nitification: typeof import('./src/components/Nitification/index.vue')['default']
+    Notify: typeof import('./src/components/Notify/index.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     SelectAddress: typeof import('./src/components/SelectAddress/index.vue')['default']
     SelectIcon: typeof import('./src/components/SelectIcon/index.vue')['default']
     Tendency: typeof import('./src/components/Tendency/index.vue')['default']
     Trend: typeof import('./src/components/trend/index.vue')['default']
+    VCharts: typeof import('./src/components/VCharts/v-charts.vue')['default']
   }
 }
